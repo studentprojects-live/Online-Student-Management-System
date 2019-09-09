@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+
+
+function IMG2_onclick() {
+
+}
+
+// ]]>
+</script>
+    <style type="text/css">
+
+.style30 {font-size: 36px}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>
+    <div>
+    <table style="background-image:url(Images/bg3.JPG); background-repeat:no-repeat; width:900px; border-left-color: #a4c1e7; border-bottom-color: #a4c1e7; border-top-style: groove; border-top-color: #a4c1e7; border-right-style: groove; border-left-style: groove; border-right-color: #a4c1e7; border-bottom-style: groove;">
+    <tr>
+    <td align="center">
+        <span class="style5 style30">Student Fee Management System </span>
+    </td>
+    </tr>
+    <tr>
+          <td  align="center" style="height:500px;">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        
+        
+        </asp:contentplaceholder>
+        
+        
+        </td></tr>
+        <tr>
+        <td align="left">
+        All Rights Reserved &copy 2009.Coign Consultants Pvt.Ltd.
+        </td>
+        </tr>
+        </table>
+    </div>
+   </center>
+    </form>
+</body>
+</html>
